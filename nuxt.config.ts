@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt"],
+  modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt", "@nuxtjs/supabase"],
   devtools: { enabled: true },
 
   tailwindcss: {
@@ -10,6 +10,16 @@ export default defineNuxtConfig({
 
   devServer:{
     host:"0.0.0.0"
+  },
+  
+  supabase: {
+    redirectOptions: {
+      login: '/login_register',
+      callback: '/confirm',
+      include: [],
+      exclude: ['/', '/explore'],
+      cookieRedirect: false,
+    }
   }
 
   // pwa: {

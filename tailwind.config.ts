@@ -10,10 +10,10 @@ export default <Partial<Config>>{
             },
             container: {
               screens: {
-                sm: "360px",
-                md: "810px",
-                lg: "1280px",
-                xl: "1440px"
+                sm: "320px",
+                md: "768px",
+                lg: "1024px",
+                xl: "1440px",
               },
               center: true  
             },
