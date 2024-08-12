@@ -14,10 +14,7 @@ const artworkTitle = getArtworkTitle
             <div class="bg-[#D9D9D9] flex flex-col font-bold gap-10 p-10">
                 <span>Price</span>
 
-                <div class="flex flex-col gap-5">
-                    <button class="bg-[#174cd3] text-white xl:h-[60px] xl:w-[280px]">Add to Cart</button>
-                    <button class="bg-white text-[#174cd3] xl:h-[60px] xl:w-[280px]">Go to Cart</button>
-                </div>
+                <button class="bg-[#174cd3] text-white xl:h-[60px] xl:w-[280px]">Add to Cart</button>
 
                 <!-- <button>Make An Offer</button> -->
             </div>

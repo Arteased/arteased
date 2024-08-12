@@ -2,25 +2,65 @@
 
 // show tab start
 
+
 const isShow = ref(false)
 
-// show start end
+const checkScreenSize = () => {
+  isShow.value = window.innerWidth >= 1024
+}
 
-// redirect auth start
+onMounted(() => {
+  checkScreenSize()
+  window.addEventListener('resize', checkScreenSize)
+})
 
+onUnmounted(() => {
+  window.removeEventListener('resize', checkScreenSize)
+})
 
+const isShow2 = ref(false)
 
-// redirect auth end
+const checkScreenSize2 = () => {
+  isShow2.value = window.innerWidth < 1024 
+}
+
+onMounted(() => {
+  checkScreenSize()
+  window.addEventListener('resize', checkScreenSize)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkScreenSize)
+})
+
+// show tab end
+
+// logout feature start
+
+// const logOut = ()
+
+// logout feature end
 
 </script>
 
 <template>
+
+    <!-- navbar start -->
+
     <header class="bg-[#252525] pb-5 pt-10 space-y-5 text-white lg:space-y-10 lg:pb-10 lg:pt-20">
+
+        <!-- navtop start -->
+
         <div class="flex items-center justify-around">
+
+            <!-- logo start -->
+
             <NuxtLink to="/">
-                <img src="/public/images\icons/arteasedfinallogo.png" class="h-9 md:h-[60px] xl:hidden"></img>
-                <img src="/public/images\icons/arteasedlogofull.svg" class="hidden xl:inline-block xl:h-[60px]">
+                <img src="/public/images\icons/arteasedfinallogo.png" class="h-9 md:h-[60px] xl:hidden">
+                <img src="/public/images\icons/arteasedlogofull.svg" class="hidden xl:inline xl:h-[60px]">
             </NuxtLink>
+
+            <!-- logo end -->
 
             <!-- search feature start -->
 
@@ -31,40 +71,37 @@ const isShow = ref(false)
 
             <!-- search feature end -->
             
-            <!-- log in, register tab start -->
+            <!-- login / register tab start -->
 
-            <div class="relative xl:hidden">
-                <img src="/images/icons/menubutton.svg" class="w-7 m-1 md:w-8 md:m-2" @click="isShow=!isShow"></img>
-                <div class="bg-[#7A7A7A] absolute p-5 right-0" v-if="isShow">
-                    <NuxtLink to="/login"><p class="text-base mb-2">Log In</p></NuxtLink>
-                    <NuxtLink to="/register"><p class="text-base">Register</p></NuxtLink>
-                </div>
-                <div class="hidden">
-                    <img src="/public/images/icons/cart.svg">
-                    <div class="bg-[#7A7A7A] absolute p-5 space-y-2 right-0">
-                        <!-- <p class="text-base mb-2" @click="isShow=!isShow">Notifications</p>
-                        <ul class="bg-white absolute p-5 right-0" v-if="isShow">
-                            <li></li>
-                        </ul> -->
-                        <p class="text-base" @click="isShow=!isShow">Cart</p>
-                        <!-- <NuxtLink to="/message"><p class="text-base mb-2">Message</p></NuxtLink>
-                        <NuxtLink to="/personalinfo"><p class="text-base">Personal Informaitons</p></NuxtLink> -->
-                        <NuxtLink to="/artworkcollections"><p class="text-base mb-2">Artwork Collection</p></NuxtLink>
-                        <!-- <NuxtLink to="/history"><p class="text-base">History & Performance</p></NuxtLink> -->
-                        <p class="text-base">Log Out</p>
+            <div class="flex gap-5 items-center">
+
+                <!-- <NuxtLink to="/cart"><img src="/public/images/icons/cart.svg"></NuxtLink>
+
+                <div class="">
+                    <img src="/images/icons/menubutton.svg" class="p-2 w-[48px]" @click="isShow=!isShow">
+                    <div class="absolute bg-[#7A7A7A] flex flex-col gap-4 p-5" v-if="isShow">
+                        <NuxtLink><p class="text-base mb-2">Notifications</p></NuxtLink>
+                        <NuxtLink to="/message"><p class="">Message</p></NuxtLink>
+                        <NuxtLink to="/personalinfo"><p class="">Personal Informations</p></NuxtLink>
+                        <NuxtLink to="/artworkcollections"><p class="">Artwork Collection</p></NuxtLink>
+                        <NuxtLink to="/history"><p class="">History & Performance</p></NuxtLink>
+                        <p class="" @click="logOut">Log Out</p>
                     </div>
-                </div>
+                </div> -->
+
+                <NuxtLink to="/login_register"><img src="/images/icons/loginRegisterIcon.svg" class="w-10" v-if="!isShow2"></NuxtLink>
+
+                <NuxtLink to="/login_register"><p class="text-2xl" v-if="isShow">Login / Register</p></NuxtLink>
+
             </div>
 
-            <div class="hidden xl:flex xl:gap-5" >
-                <NuxtLink to="/login"><p class="text-2xl">Log In</p></NuxtLink>
-                <NuxtLink to="/register"><p class="text-2xl">Register</p></NuxtLink>
-            </div>
+            <!-- log in / register tab end -->
+
         </div>
 
-        <!-- log in, register tab end -->
+        <!-- navtop end -->
 
-        <!-- nav start -->
+        <!-- navbot start -->
 
         <nav class="space-y-5">
             <!-- <div class="flex gap-5 justify-center">
@@ -81,7 +118,10 @@ const isShow = ref(false)
             </div>
         </nav>
 
-        <!-- nav end -->
+        <!-- navbot end -->
 
     </header>
+
+    <!-- navbar end -->
+
 </template>
