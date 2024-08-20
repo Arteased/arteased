@@ -22,9 +22,8 @@
             <!-- start hero section -->
              
             <NuxtLink to="/explore">
-                <main class="bg-black py-20 text-center md:py-[120px] lg:py-[160px]">
-                    <h4 class="text-2xl font-bold pb-5 md:text-[40px] md:pb-10 lg:text-5xl">Want to sell your art?</h4>
-                    <p class="text-base pb-10 md:text-2xl md:pb-20">Find emerging artists here.</p>
+                <main class="bg-black py-20 space-y-10 text-center md:py-[120px] lg:py-[160px]">
+                    <h6 class="text-2xl font-bold pb-5 md:text-[40px] md:pb-10 lg:text-5xl">Find emerging artists here</h6>
                     <button class="bg-mystic rounded-lg h-[40px] w-[120px] font-bold text-xs md:h-[60px] md:w-[200px] md:text-base">Learn More</button>
                 </main>
             </NuxtLink>

@@ -21,7 +21,7 @@ onUnmounted(() => {
 const isShow2 = ref(false)
 
 const checkScreenSize2 = () => {
-  isShow2.value = window.innerWidth < 1024 
+  isShow2.value = window.innerWidth < 1024
 }
 
 onMounted(() => {
