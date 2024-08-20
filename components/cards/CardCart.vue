@@ -1,6 +1,6 @@
 <template>
     <section>
-        <img src="/images/products/baju-1.png"/>
+        <img src=/>
 
 
         <h5>Men's Streetwear Fashion</h5>
