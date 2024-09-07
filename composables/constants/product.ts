@@ -8,7 +8,7 @@ export const products = [
       artist: "Kadek Bagus Wedanta Yogananda",
       dimension: "146 X 96 cm",
       years: "2024",
-      image: "/images/products/bentang_halimun1.png",
+      image: "/images/products/bentang_halimun1c.png",
       isCart: false,
     },
     {
@@ -20,7 +20,7 @@ export const products = [
       artist: "Kadek Bagus Wedanta Yogananda",
       dimension: "146 X 96 cm",
       years: "2024",
-      image: "/images/products/bentang_halimun2.png",
+      image: "/images/products/bentang_halimun2c.png",
       isCart: false,
     },
     {
@@ -32,7 +32,7 @@ export const products = [
       artist: "Kadek Bagus Wedanta Yogananda",
       dimension: "146 X 96 cm",
       years: "2024",
-      image: "/images/products/bentang_halimun3.png",
+      image: "/images/products/bentang_halimun3c.png",
       isCart: false,
     },
     {
@@ -44,7 +44,7 @@ export const products = [
       artist: "Mushoffa Nabiel Rizqullah",
       dimension: "82 X 112 cm",
       years: "2024",
-      image: "/images/products/hududdha.png",
+      image: "/images/products/hududdhac.png",
       isCart: false,
     },    
     {
@@ -56,19 +56,19 @@ export const products = [
       artist: "Mushoffa Nabiel Rizqullah",
       dimension: "82 X 112cm",
       years: "2024",
-      image: "/images/products/jijnasu.png",
+      image: "/images/products/jijnasuc.png",
       isCart: false,
     },    
     {
       id: 57,
       name: "Dipaeka",
       series: "",
-      price: "Rp ",
+      price: "Rp 12.000.000",
       category: "Ballpoint on Paper",
       artist: "Mushoffa Nabiel Rizqullah",
       dimension: "82 X 112cm",
       years: "2024",
-      image: "/images/products/dipaeka.png",
+      image: "/images/products/dipaekac.png",
       isCart: false,
     },    
     {
@@ -80,7 +80,7 @@ export const products = [
       artist: "Mushoffa Nabiel Rizqullah",
       dimension: "82 X 112cm",
       years: "2024",
-      image: "/images/products/dhire.png",
+      image: "/images/products/dhirec.png",
       isCart: false,
     },    
     {
@@ -92,7 +92,7 @@ export const products = [
       artist: "Mushoffa Nabiel Rizqullah",
       dimension: "82 X 112 cm",
       years: "2024",
-      image: "/images/products/agnitara.png",
+      image: "/images/products/agnitarac.png",
       isCart: false,
     },
     {
@@ -104,7 +104,7 @@ export const products = [
       artist: "Mushoffa Nabiel Rizqullah",
       dimension: "71 X 98 cm",
       years: "2024",
-      image: "/images/products/varuga_hana.png",
+      image: "/images/products/varuga_hanac.png",
       isCart: false,
     },
     {
@@ -116,7 +116,7 @@ export const products = [
       artist: "Mushoffa Nabiel Rizqullah",
       dimension: "82 X 112 cm",
       years: "2024",
-      image: "/images/products/mahadurga.png",
+      image: "/images/products/mahadurgac.png",
       isCart: false,
     },
     {
@@ -128,7 +128,7 @@ export const products = [
       artist: "Mushoffa Nabiel Rizqullah",
       dimension: "82 X 112 cm",
       years: "2024",
-      image: "/images/products/parvakaro.png",
+      image: "/images/products/parvakaroc.png",
       isCart: false,
     },
     {
@@ -140,7 +140,7 @@ export const products = [
       artist: "Mushoffa Nabiel Rizqullah",
       dimension: "79 X 109 cm",
       years: "2024",
-      image: "/images/products/aglonyx.png",
+      image: "/images/products/aglonyxc.png",
       isCart: false,
     },
     {
@@ -152,7 +152,7 @@ export const products = [
       artist: "Mushoffa Nabiel Rizqullah",
       dimension: "82 X 112 cm",
       years: "2024",
-      image: "/images/products/vandriya.png",
+      image: "/images/products/vandriyac.png",
       isCart: false,
     },
     {
@@ -164,7 +164,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40 X 40 cm",
       years: "2024",
-      image: "/images/products/pig_maestro.png",
+      image: "/images/products/pig_maestroc.png",
       isCart: false,
     },
     {
@@ -176,7 +176,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40 X 40 cm",
       years: "2024",
-      image: "/images/products/frog_bicycling.png",
+      image: "/images/products/frog_bicyclingc.png",
       isCart: false,
     },
     {
@@ -188,7 +188,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40 X 40 cm",
       years: "2024",
-      image: "/images/products/cow_reading.png",
+      image: "/images/products/cow_readingc.png",
       isCart: false,
     },
     {
@@ -200,7 +200,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "55 X 75 cm",
       years: "2024",
-      image: "/images/products/pig_money.png",
+      image: "/images/products/pig_moneyc.png",
       isCart: false,
     },
     {
@@ -212,7 +212,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "75 X 55 cm",
       years: "2024",
-      image: "/images/products/horse_sideview.png",
+      image: "/images/products/horse_sideviewc.png",
       isCart: false,
     },
     {
@@ -224,7 +224,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "75 X 55 cm",
       years: "2024",
-      image: "/images/products/bull_sit.png",
+      image: "/images/products/bull_sitc.png",
       isCart: false,
     },
     {
@@ -236,7 +236,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/smoking_bird.png",
+      image: "/images/products/smoking_birdc.png",
       isCart: false,
     },
     {
@@ -248,7 +248,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/elephant_on_the_toilet.png",
+      image: "/images/products/elephant_toiletc.png",
       isCart: false,
     },
     {
@@ -260,7 +260,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/singing_pig.png",
+      image: "/images/products/singing_pigc.png",
       isCart: false,
     },
     {
@@ -272,7 +272,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/walking_cat.png",
+      image: "/images/products/walking_catc.png",
       isCart: false,
     },
     {
@@ -284,7 +284,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/rhino_standing.png",
+      image: "/images/products/rhino_standingc.png",
       isCart: false,
     },
     {
@@ -296,7 +296,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/monk_monkey.png",
+      image: "/images/products/monk_monkeyc.png",
       isCart: false,
     },
     {
@@ -308,7 +308,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/kid_cat.png",
+      image: "/images/products/kid_catc.png",
       isCart: false,
     },
     {
@@ -320,7 +320,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/sitting_zebra.png",
+      image: "/images/products/sitting_zebrac.png",
       isCart: false,
     },
     {
@@ -332,7 +332,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/smoking_bird_3.png",
+      image: "/images/products/smoking_bird_3c.png",
       isCart: false,
     },
     {
@@ -344,7 +344,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/thinking_fish.png",
+      image: "/images/products/thinking_fishc.png",
       isCart: false,
     },
     {
@@ -356,7 +356,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/smoking_bird_2.png",
+      image: "/images/products/smoking_bird_2c.png",
       isCart: false,
     },
     {
@@ -368,7 +368,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/bear_on_the_toilet.png",
+      image: "/images/products/bear_toiletc.png",
       isCart: false,
     },
     {
@@ -380,7 +380,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "29 X 21 cm",
       years: "2024",
-      image: "/images/products/iguana_bicycling.png",
+      image: "/images/products/iguana_bicyclingc.png",
       isCart: false,
     },
     {
@@ -392,7 +392,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/fat_bear.png",
+      image: "/images/products/fat_bearc.png",
       isCart: false,
     },
     {
@@ -404,7 +404,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/cat_eating_banana.png",
+      image: "/images/products/cat_eatingc.png",
       isCart: false,
     },
     {
@@ -416,7 +416,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/smoking_cat.png",
+      image: "/images/products/smoking_catc.png",
       isCart: false,
     },
     {
@@ -428,7 +428,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/sloth_on_the_toilet.png",
+      image: "/images/products/sloth_toiletc.png",
       isCart: false,
     },
     {
@@ -440,7 +440,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/cooking_wolf.png",
+      image: "/images/products/cooking_wolfc.png",
       isCart: false,
     },
     {
@@ -452,7 +452,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/dog_on_the_toilet.png",
+      image: "/images/products/dog_toiletc.png",
       isCart: false,
     },
     {
@@ -464,7 +464,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "21 X 29 cm",
       years: "2024",
-      image: "/images/products/cat_in_tuxedo.png",
+      image: "/images/products/cat_tuxedoc.png",
       isCart: false,
     },
     {
@@ -476,7 +476,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "50 X 50 cm",
       years: "2024",
-      image: "/images/products/headshot_pig.png",
+      image: "/images/products/headshot_pigc.png",
       isCart: false,
     },
     {
@@ -488,7 +488,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "50 X 50 cm",
       years: "2024",
-      image: "/images/products/headshot_chicken.png",
+      image: "/images/products/headshot_chickenc.png",
       isCart: false,
     },
     {
@@ -500,7 +500,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "50 X 50 cm",
       years: "2024",
-      image: "/images/products/headshot_cat.png",
+      image: "/images/products/headshot_catc.png",
       isCart: false,
     },
     {
@@ -512,7 +512,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "50 X 50 cm",
       years: "2024",
-      image: "/images/products/headshot_horse.png",
+      image: "/images/products/headshot_horsec.png",
       isCart: false,
     },
     {
@@ -524,7 +524,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "50 X 50 cm",
       years: "2024",
-      image: "/images/products/headshot_bird.png",
+      image: "/images/products/headshot_birdc.png",
       isCart: false,
     },
     {
@@ -536,7 +536,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "50 X 50 cm",
       years: "2024",
-      image: "/images/products/headshot_sloth.png",
+      image: "/images/products/headshot_slothc.png",
       isCart: false,
     },
     {
@@ -548,7 +548,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "90 X 140 cm",
       years: "2024",
-      image: "/images/products/dog_drinking.png",
+      image: "/images/products/dog_drinkingc.png",
       isCart: false,
     },
     {
@@ -572,7 +572,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "85 X 135 cm",
       years: "2024",
-      image: "/images/products/orchestra_pig.jpg",
+      image: "/images/products/orchestra_pigc.png",
       isCart: false,
     },
     {
@@ -584,7 +584,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "140 X 90 cm",
       years: "2023",
-      image: "/images/products/handtohandseries1.jpg",
+      image: "/images/products/handtohandseries1c.png",
       isCart: false,
     },
     {
@@ -596,7 +596,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40 X 40 cm",
       years: "2023",
-      image: "/images/products/handtohandseries2.jpg",
+      image: "/images/products/handtohandseries2c.png",
       isCart: false,
     },
     {
@@ -608,7 +608,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40 X 40 cm",
       years: "2023",
-      image: "/images/products/handtohandseries3.jpg",
+      image: "/images/products/handtohandseries3c.png",
       isCart: false,
     },
     {
@@ -620,7 +620,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40 X 40 cm",
       years: "2023",
-      image: "/images/products/handtohandseries4.jpg",
+      image: "/images/products/handtohandseries4c.png",
       isCart: false,
     },
     {
@@ -632,7 +632,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40 X 40 cm",
       years: "2023",
-      image: "/images/products/handtohandseries5.jpg",
+      image: "/images/products/handtohandseries5c.png",
       isCart: false,
     },
     {
@@ -644,7 +644,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40 X 40 cm",
       years: "2023",
-      image: "/images/products/handtohandseries6.jpg",
+      image: "/images/products/handtohandseries6c.png",
       isCart: false,
     },
     {
@@ -656,7 +656,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40 X 40 cm",
       years: "2023",
-      image: "/images/products/handtohandseries7.jpg",
+      image: "/images/products/handtohandseries7c.png",
       isCart: false,
     },
     {
@@ -668,7 +668,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40 X 40 cm",
       years: "2023",
-      image: "/images/products/handtohandseries8.jpg",
+      image: "/images/products/handtohandseries8c.png",
       isCart: false,
     },
     {
@@ -680,7 +680,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries9.jpg",
+      image: "/images/products/handtohandseries9c.png",
       isCart: false,
     },{
       id: 10,
@@ -691,7 +691,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries10.jpg",
+      image: "/images/products/handtohandseries10c.png",
       isCart: false,
     },{
       id: 11,
@@ -702,7 +702,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries11.jpg",
+      image: "/images/products/handtohandseries11c.png",
       isCart: false,
     },{
       id: 12,
@@ -713,7 +713,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries12.jpg",
+      image: "/images/products/handtohandseries12c.png",
       isCart: false,
     },{
       id: 13,
@@ -724,7 +724,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries13.jpg",
+      image: "/images/products/handtohandseries13c.png",
       isCart: false,
     },{
       id: 14,
@@ -735,7 +735,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries14.jpg",
+      image: "/images/products/handtohandseries14c.png",
       isCart: false,
     },{
       id: 15,
@@ -746,7 +746,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries15.png",
+      image: "/images/products/handtohandseries15c.png",
       isCart: false,
     },{
       id: 16,
@@ -757,7 +757,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries16.jpg",
+      image: "/images/products/handtohandseries16c.png",
       isCart: false,
     },{
       id: 17,
@@ -768,7 +768,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries17.jpg",
+      image: "/images/products/handtohandseries17c.png",
       isCart: false,
     },
     {
@@ -780,7 +780,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries18.jpg",
+      image: "/images/products/handtohandseries18c.png",
       isCart: false,
     },
     {
@@ -792,7 +792,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries19.jpg",
+      image: "/images/products/handtohandseries19c.png",
       isCart: false,
     },
     {
@@ -804,7 +804,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries20.jpg",
+      image: "/images/products/handtohandseries20c.png",
       isCart: false,
     },
     {
@@ -816,7 +816,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries21.jpg",
+      image: "/images/products/handtohandseries21c.png",
       isCart: false,
     },
     {
@@ -828,7 +828,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries22.jpg",
+      image: "/images/products/handtohandseries22c.png",
       isCart: false,
     },
     {
@@ -840,7 +840,7 @@ export const products = [
       artist: "Auditama Nugraha",
       dimension: "40X40cm",
       years: "2023",
-      image: "/images/products/handtohandseries23.jpg",
+      image: "/images/products/handtohandseries23c.png",
       isCart: false,
     },
   ];
