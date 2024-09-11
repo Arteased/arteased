@@ -45,7 +45,13 @@ const addCart = () => {
                 <span>{{ oneProduct.price }}</span>
                 <span>{{ oneProduct.likes }}</span>
             </div>
+
             <br>
+            
+            <div>
+              <span>{{ oneProduct.category }}</span>
+            </div>
+
             <div class="flex justify-between">
                 <span>{{ oneProduct.dimension }}</span>
                 <span>{{ oneProduct.years }}</span>
