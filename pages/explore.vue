@@ -18,7 +18,7 @@ const allProducts = computed(() => {
 
 	<section>
 		<NuxtLink to="/fulldetailartwork">
-			<div class="flex flex-wrap gap-10 p-10">
+			<div class="flex flex-wrap justify-center gap-10 p-10">
 				<template v-for="(item, index) in allProducts" :key="index">
 					<CardsCardArtwork :product="item"/>
 				</template>

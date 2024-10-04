@@ -33,8 +33,8 @@ const addCart = () => {
 </script>
 
 <template>
-    <section class="bg-white shadow-lg text-[14px] p-5 text-black text-wrap h-fit">
-        <img :src="oneProduct.image" class="max-w-60">
+    <section class="bg-white shadow-lg text-[14px] p-5 text-black text-wrap max-w-72 h-fit">
+        <img :src="oneProduct.image" class="w-60">
         <div>
             <div class="flex">
                 <NuxtLink :to="`/products/${oneProduct.id}`"></NuxtLink>
