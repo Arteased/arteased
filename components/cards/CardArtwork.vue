@@ -33,9 +33,9 @@ const addCart = () => {
 </script>
 
 <template>
-    <section class="bg-white shadow-lg text-[14px] p-5 text-black text-wrap max-w-72 h-fit">
-        <img :src="oneProduct.image" class="w-60">
-        <div>
+    <section class="bg-white shadow-lg text-[8px] text-black text-wrap h-fit rounded-lg w-32 md:w-60 md:text-[12px]">
+        <img :src="oneProduct.image" class="rounded-t-lg w-32 md:w-60">
+        <div class="p-2 lg:p-5">
             <div class="flex">
                 <NuxtLink :to="`/products/${oneProduct.id}`"></NuxtLink>
                 <h3 class="font-bold md:text-base">{{ oneProduct.name }}{{ oneProduct.series }}</h3>

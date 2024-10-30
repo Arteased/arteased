@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt", "@nuxtjs/supabase"],
   devtools: { enabled: true },
+  ssr: true,
+  
+  
 
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
