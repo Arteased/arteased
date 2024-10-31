@@ -1,5 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ]
+    }
+  },
+  
   modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt", "@nuxtjs/supabase"],
   devtools: { enabled: true },
   ssr: true,
